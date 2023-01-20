@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-image: url(images/salad.jpg);
     color: white;
@@ -53,3 +54,60 @@ h1:before {
     position: absolute;
   }
  
+=======
+body {
+    background-image: url(images/salad.jpg);
+    color: white;
+    text-align: center;
+    
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+#search-section form {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, .13);
+}
+
+.form-control:active,
+.form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+h1 {
+    color: white;
+    font-family:cursive;
+    margin-top: 10px;
+    position: relative;
+}
+h1:before {
+    content: "";
+    display: block;
+    width: 480px;
+    height: 2px;
+    background: #fdfdfe;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 480px;
+    height: 2px;
+    background: #fdfdff;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+ 
+>>>>>>> d7e591e2c7b71cd2521a8422fef01cb167d44e0b
