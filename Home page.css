@@ -23,7 +23,7 @@ body {
   background-position: center;
 }
 .container, #carouselExampleControls {
-  max-width:  1383.33px;
+  smax-width:  1383.33px;
   
 }
 #navbarNavAltMarkup {
