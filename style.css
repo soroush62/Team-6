@@ -9,17 +9,6 @@ body {
     
 }
 
-.bg-light {
-    background-color: transparent !important;
-}
-#search-section form {
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: white;
-    height: 40px;
-    box-shadow: 3px 4px 4px rgba(0, 0, 0, .13);
-}
-
 .form-control:active,
 .form-control:focus {
     border: none;
