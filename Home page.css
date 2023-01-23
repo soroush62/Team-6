@@ -59,3 +59,6 @@ body {
   .row2 {
     margin-top: 180px;
   }
+  .navbar-brand{
+    padding-left: 52px;
+  }
