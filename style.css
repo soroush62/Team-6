@@ -52,4 +52,18 @@ h1:before {
     top: 50%;
     position: absolute;
   }
- 
+  #footer {
+    margin-top: 25px;
+  }
+ h2 {
+    font-size: 25px;
+    color: rgb(255, 119, 0);
+ }
+ a, nav a:visited, nav a:active{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(255, 138, 4);
+}
