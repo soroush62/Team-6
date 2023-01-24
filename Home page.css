@@ -4,20 +4,20 @@ body {
     text-align: center;
  }
 .big-img-1 {
-  background-image: url(images/Home.jpg);
+  background-image: url(Home.jpg);
 }
 .big-img-2 {
-  background-image: url(images/Home4.jpg);
+  background-image: url(Home4.jpg);
 }
 .big-img-3 {
-  background-image: url(images/Home6.jpg);
+  background-image: url(Home6.jpg);
 }
 
 .bg-light {
     background-color: transparent !important;
 }
 .carousel-image {
-  height: 100vh;
+  height: 1000vh;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
