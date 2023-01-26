@@ -142,12 +142,8 @@ a.button:active {
 /* ---US---- */
 .US
 { background-color:rgb(255, 47, 0) ;
-  background-image: url(img6.jpg);
-  background-position: center center;
-  min-height: calc(52vh - 50px);
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+ 
+
 }
 .location
 {
@@ -188,8 +184,22 @@ h4
   color: white;
 }
 
+.locationul1>ul>li
+{
+  background-color:rgb(255, 47, 0) ;
+}
+
 /*    ================================ */
 
+
+article
+{
+  background-image: url(img6.jpg);
+  background-position: center center;
+  min-height: calc(52vh - 50px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 body {
   margin: 0;
@@ -294,7 +304,10 @@ padding-left: 10%;
 
 /* +++++ MOBILEWEB +++++ */
 
+footer
+{
 
+}
 @media(max-width: 700px) {
 nav>ul {
     display: flex; 
