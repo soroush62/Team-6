@@ -1,11 +1,11 @@
 body {
   background-image: url(images/salad.jpg);
   color: white;
-  text-align: center;
-  
+  text-align: center;    
   background-size: cover;
   background-attachment:fixed;
   background-repeat: no-repeat;
+  margin-top: 70px;
   
 }
 #content {
@@ -93,27 +93,27 @@ nav {
 }
 #footer1 {
   margin: 0 auto;
-  background-color: rgb(255, 47, 0);
+  background-color: rgb(172, 107, 72);
   height: 100%;
   color: white;
   text-align: start;
   font-size: 25px;
-  padding-left: 5px;
+  ppadding-left: 5px;
 }
 #footer2 {
   margin: 0 auto;
-  background-color: rgb(49, 44, 44);    
+  bbackground-color: rgb(49, 44, 44);    
   color: white;
   text-align: center;
   font-size: 19px;
-  padding-left: 85px;
+  ppadding-left: 85px;
   hheight: 270px;
-  background-image: url(images/back2.jpeg);
+  bbackground-image: url(images/back2.jpeg);
   background-repeat: no-repeat;
   background-size:cover;
 }
 .carousel-image  {
-  height: 270px;
+  height: 308.49px;
   wwidth: 290px;
   background-repeat: no-repeat;
   background-size:cover;
@@ -124,7 +124,7 @@ nav {
 }
 #footer3 {
   margin: 0 auto;
-  background-color: rgb(255, 47, 0);
+  vbackground-color: rgb(56, 56, 56);
   height: 100%;
   color: white;
   text-align: start;
@@ -132,11 +132,28 @@ nav {
   padding-left: 5px;
   padding-top: 5px;
   height: 340px;
+  background-image: url(images/back4.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+hr.style1{
+  border-top: 4px solid #fefefe;
+}
+#firstcol {
+  padding-top: 15px;
+}
+
+@media (min-width: 1200px){
+.container {
+  width: 100%;
+}
 }
 @media (max-width: 900px) {
   nav {
-    margin-top: 15px;
+    margin-top: 20px;
     width: 85%;
     margin-left: 0;
+    position: relative;
+    justify-content: center;
 }
 }
