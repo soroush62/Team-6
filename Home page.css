@@ -62,3 +62,10 @@ body {
   .navbar-brand{
     padding-left: 52px;
   }
+  .logo {
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    font-size: 20px;
+    background-color: blue;
+  }
