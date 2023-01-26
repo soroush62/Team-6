@@ -17,10 +17,19 @@
 
 /* -----cont------ */
 
-
+.cont>nav>ul>div
+{
+    font-weight: bold;
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+}
 
 .cont>nav>ul
-{
+{ 
   display: flex;
   float: right;
   position: fixed;
@@ -64,7 +73,7 @@ li a:hover {
 /* ---mid------- */
 .mid {
   align-items: center;
-  padding-top: 17em;
+  padding-top: 20%;
   display: block;
   text-align: center;
 }
@@ -191,7 +200,13 @@ h4
 
 /*    ================================ */
 
-
+h3
+{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(255, 47, 0); 
+    padding-left: 5%;
+}
 article
 {
   background-image: url(img6.jpg);
@@ -209,9 +224,9 @@ body {
  article img
  {  
   width: 400px;
-  height: 300px;
+  height: 100%;
   overflow: hidden;
-  margin: -3px;
+  margin: 10px;
  }
 .pic-ctn {
   display: flex;
@@ -276,7 +291,7 @@ img:nth-child(5) {
 p {
   margin-left: 10%;
   margin-top: 20px;
-  margin-bottom: -2rem;
+  margin-bottom: 0rem;
 }
 
 
@@ -284,8 +299,6 @@ p {
 {
 display: block;
 color: rgb(243, 243, 243);
-padding-right: 100px;
-padding-left: 15px;
 }
 
 .midtext
@@ -297,7 +310,6 @@ float: left;
 .FFF
 {
 width: 30%;
-padding-left: 10%;
 }
 
 /* END MIDLE*/
@@ -322,20 +334,19 @@ nav>ul {
 }
 @media(max-width: 1000px)
 {
+    article
+    {
+        background-image: none;
+    }
 article img
 {
   display: none; 
 }
-p
-{ 
-  display: inline;
 
-  margin-left: 20%;
-}
 .FFF
-{
+{ 
+display: inline;
 width: auto;
-padding-left: 10%;
 }
 .US
 { 

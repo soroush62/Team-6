@@ -107,20 +107,20 @@ nav {
   text-align: center;
   font-size: 19px;
   padding-left: 85px;
-  hheight: 270px;
+  height: 270px;
   background-image: url(images/back2.jpeg);
   background-repeat: no-repeat;
   background-size:cover;
 }
 .carousel-image  {
   height: 270px;
-  wwidth: 290px;
+  width: 290px;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
 }
 #Dubai {
-  smargin-left: 250px;
+  margin-left: 250px;
 }
 #footer3 {
   margin: 0 auto;
