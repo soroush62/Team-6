@@ -23,32 +23,7 @@ body {
   outline: none;
   box-shadow: none;
 }
-h1 {
-  color: white;
-  font-family:cursive;
-  margin-top: 10px;
-  position: relative;
-}
-h1:before {
-  content: "";
-  display: block;
-  width: 480px;
-  height: 2px;
-  background: #fdfdfe;
-  left: 0;
-  top: 50%;
-  position: absolute;
-}
-h1:after {
-  content: "";
-  display: block;
-  width: 480px;
-  height: 2px;
-  background: #fdfdff;
-  right: 0;
-  top: 50%;
-  position: absolute;
-}
+
 
 h2 {
   font-size: 25px;
@@ -118,7 +93,7 @@ nav {
 }
 #footer1 {
   margin: 0 auto;
-  background-color: red;
+  background-color: rgb(255, 47, 0);
   height: 100%;
   color: white;
   text-align: start;
@@ -149,7 +124,7 @@ nav {
 }
 #footer3 {
   margin: 0 auto;
-  background-color: red;
+  background-color: rgb(255, 47, 0);
   height: 100%;
   color: white;
   text-align: start;
@@ -157,4 +132,11 @@ nav {
   padding-left: 5px;
   padding-top: 5px;
   height: 340px;
+}
+@media (max-width: 900px) {
+  nav {
+    margin-top: 15px;
+    width: 85%;
+    margin-left: 0;
+}
 }
