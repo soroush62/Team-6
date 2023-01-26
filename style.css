@@ -1,170 +1,159 @@
 body {
-  background-image: url(images/salad.jpg);
-  color: white;
-  text-align: center;    
-  background-size: cover;
-  background-attachment:fixed;
-  background-repeat: no-repeat;
-  margin-top: 70px;
-  
+    background-image: url(images/salad.jpg);
+    color: white;
+    text-align: center;    
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    
 }
 #content {
-  width: 80%;
-  height: 100%;
-  margin: 0 auto;
-  
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    
 }
 .mt-5 {
-  font-size: 17px;
+    font-size: 17px;
 }
 .form-control:active,
 .form-control:focus {
-  border: none;
-  outline: none;
-  box-shadow: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
-
-h2 {
-  font-size: 25px;
-  color: rgb(255, 119, 0);
-}
-a, nav a:visited, nav a:active{
-  text-decoration: none; 
-  color: rgb(255, 255, 255);
-  font-weight: bold;
+ 
+ h2 {
+    font-size: 25px;
+    color: rgb(255, 119, 0);
+ }
+ a, nav a:visited, nav a:active{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 a:hover {
-  color: rgb(255, 138, 4);
+    color: rgb(255, 138, 4);
 }
 nav {
-  margin-top: 10px;
-  width: 85%;
-  margin-left: 135px;
+    margin-top: 10px;
+    width: 85%;
+    margin-left: 135px;
 }
 #navend {
-  border-right: 2px solid gray;
-  padding-right: 5px;
+    border-right: 2px solid gray;
+    padding-right: 5px;
 }
 #facebook, #twitter{
-  padding-left: 5px;
+    padding-left: 5px;
 }
 .modal-footer p, .overlay .btn p {
-  padding-top: 6px;
+    padding-top: 6px;
 }
 /* image hover*/
 .imagehover2 {
-  position: relative;
-  width: 100%;
-}
-
-.image2 {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
+    position: relative;
+    width: 100%;
+  }
+  
+  .image2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color:transparent;
-}
-
-.imagehover2:hover .overlay {
-  opacity: 1;
-}
-
-.text2 {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-#footer1 {
-  margin: 0 auto;
-  background-color: rgb(172, 107, 72);
-  height: 100%;
-  color: white;
-  text-align: start;
-  font-size: 25px;
-  ppadding-left: 5px;
-}
-#footer2 {
-  margin: 0 auto;
-  bbackground-color: rgb(49, 44, 44);    
-  color: white;
-  text-align: center;
-  font-size: 19px;
-<<<<<<< HEAD
-  ppadding-left: 85px;
-  hheight: 270px;
-  bbackground-image: url(images/back2.jpeg);
-=======
-  padding-left: 85px;
-  height: 270px;
-  background-image: url(images/back2.jpeg);
->>>>>>> 3bebb2125ee335d97fb7772c8def96d2b0ba5671
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-.carousel-image  {
-<<<<<<< HEAD
-  height: 308.49px;
-  wwidth: 290px;
-=======
-  height: 270px;
-  width: 290px;
->>>>>>> 3bebb2125ee335d97fb7772c8def96d2b0ba5671
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position: center;
-}
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:transparent;
+  }
+  
+  .imagehover2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #footer1 {
+    margin: 0 auto;
+    background-color: rgb(172, 107, 72);
+    height: 100%;
+    color: white;
+    text-align: start;
+    font-size: 25px;
+    ppadding-left: 5px;
+  }
+  #footer2 {
+    margin: 0 auto;
+    bbackground-color: rgb(49, 44, 44);    
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    padding-top: 5px;
+    hheight: 270px;
+    bbackground-image: url(images/back2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .carousel-image  {
+    height: 308.49px;
+    wwidth: 290px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
 #Dubai {
-  margin-left: 250px;
+    smargin-left: 250px;
 }
 #footer3 {
-  margin: 0 auto;
-  vbackground-color: rgb(56, 56, 56);
-  height: 100%;
-  color: white;
-  text-align: start;
-  font-size: 15px;
-  padding-left: 5px;
-  padding-top: 5px;
-  height: 340px;
-  background-image: url(images/back4.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-hr.style1{
-  border-top: 4px solid #fefefe;
-}
-#firstcol {
-  padding-top: 15px;
-}
-
-@media (min-width: 1200px){
+    margin: 0 auto;
+    vbackground-color: rgb(56, 56, 56);
+    height: 100%;
+    color: white;
+    text-align: start;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 15px;
+    height: 346px;
+    background-image: url(images/back4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  hr.style1{
+    border-top: 4px solid #fefefe;
+  }
+  #firstcol {
+    padding-top: 15px;
+  }
+ 
+  @media (min-width: 1200px){
 .container {
-  width: 100%;
+    width: 100%;
 }
-}
-@media (max-width: 900px) {
-  nav {
-    margin-top: 20px;
-    width: 85%;
-    margin-left: 0;
-    position: relative;
-    justify-content: center;
-}
-}
+  }
+  @media (max-width: 900px) {
+    nav {
+      margin-top: 20px;
+      width: 85%;
+      margin-left: 0;
+      position: relative;
+      justify-content: center;
+  }
+  }
