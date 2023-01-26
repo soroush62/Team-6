@@ -106,21 +106,32 @@ nav {
   color: white;
   text-align: center;
   font-size: 19px;
+<<<<<<< HEAD
   ppadding-left: 85px;
   hheight: 270px;
   bbackground-image: url(images/back2.jpeg);
+=======
+  padding-left: 85px;
+  height: 270px;
+  background-image: url(images/back2.jpeg);
+>>>>>>> 3bebb2125ee335d97fb7772c8def96d2b0ba5671
   background-repeat: no-repeat;
   background-size:cover;
 }
 .carousel-image  {
+<<<<<<< HEAD
   height: 308.49px;
   wwidth: 290px;
+=======
+  height: 270px;
+  width: 290px;
+>>>>>>> 3bebb2125ee335d97fb7772c8def96d2b0ba5671
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
 }
 #Dubai {
-  smargin-left: 250px;
+  margin-left: 250px;
 }
 #footer3 {
   margin: 0 auto;

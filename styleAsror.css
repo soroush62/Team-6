@@ -17,10 +17,19 @@
 
 /* -----cont------ */
 
-
+.cont>nav>ul>div
+{
+    font-weight: bold;
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+}
 
 .cont>nav>ul
-{
+{ 
   display: flex;
   float: right;
   position: fixed;
@@ -64,7 +73,7 @@ li a:hover {
 /* ---mid------- */
 .mid {
   align-items: center;
-  padding-top: 17em;
+  padding-top: 20%;
   display: block;
   text-align: center;
 }
@@ -141,13 +150,9 @@ a.button:active {
 
 /* ---US---- */
 .US
-{
-  background-image: url(img6.jpg);
-  background-position: center center;
-  min-height: calc(52vh - 50px);
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+{ background-color:rgb(255, 47, 0) ;
+ 
+
 }
 .location
 {
@@ -188,10 +193,30 @@ h4
   color: white;
 }
 
+.locationul1>ul>li
+{
+  background-color:rgb(255, 47, 0) ;
+}
+
 /*    ================================ */
 
+h3
+{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(255, 47, 0); 
+    padding-left: 5%;
+}
+article
+{
+  background-image: url(img6.jpg);
+  background-position: center center;
+  min-height: calc(52vh - 50px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-html, body {
+body {
   margin: 0;
   padding: 0;
   background-color: rgb(255, 47, 0);
@@ -199,9 +224,9 @@ html, body {
  article img
  {  
   width: 400px;
-  height: 300px;
+  height: 100%;
   overflow: hidden;
-  margin: -3px;
+  margin: 10px;
  }
 .pic-ctn {
   display: flex;
@@ -266,7 +291,7 @@ img:nth-child(5) {
 p {
   margin-left: 10%;
   margin-top: 20px;
-  margin-bottom: -2rem;
+  margin-bottom: 0rem;
 }
 
 
@@ -274,8 +299,6 @@ p {
 {
 display: block;
 color: rgb(243, 243, 243);
-padding-right: 100px;
-padding-left: 15px;
 }
 
 .midtext
@@ -287,14 +310,16 @@ float: left;
 .FFF
 {
 width: 30%;
-padding-left: 10%;
 }
 
 /* END MIDLE*/
 
 /* +++++ MOBILEWEB +++++ */
 
+footer
+{
 
+}
 @media(max-width: 700px) {
 nav>ul {
     display: flex; 
@@ -309,20 +334,19 @@ nav>ul {
 }
 @media(max-width: 1000px)
 {
+    article
+    {
+        background-image: none;
+    }
 article img
 {
   display: none; 
 }
-p
-{ 
-  display: inline;
 
-  margin-left: 20%;
-}
 .FFF
-{
+{ 
+display: inline;
 width: auto;
-padding-left: 10%;
 }
 .US
 { 
@@ -346,6 +370,15 @@ padding-left: 10%;
 {
   border-bottom: 0ch;
 }
+
+}
+@media(max-width: 500px)
+{
+  .FFF
+  {
+    width: auto;
+    text-align: center;
+  }
 }
 
 /* ----- end --------- */
