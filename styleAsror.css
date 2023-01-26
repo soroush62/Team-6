@@ -141,7 +141,7 @@ a.button:active {
 
 /* ---US---- */
 .US
-{
+{ background-color:rgb(255, 47, 0) ;
   background-image: url(img6.jpg);
   background-position: center center;
   min-height: calc(52vh - 50px);
@@ -191,7 +191,7 @@ h4
 /*    ================================ */
 
 
-html, body {
+body {
   margin: 0;
   padding: 0;
   background-color: rgb(255, 47, 0);
@@ -346,6 +346,15 @@ padding-left: 10%;
 {
   border-bottom: 0ch;
 }
+
+}
+@media(max-width: 500px)
+{
+  .FFF
+  {
+    width: auto;
+    text-align: center;
+  }
 }
 
 /* ----- end --------- */
