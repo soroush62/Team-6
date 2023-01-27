@@ -146,14 +146,19 @@ nav {
   background-repeat: no-repeat;
   background-size:cover; 
 }
-.col-md-6 {
-  left: 10%;
-}
+
 hr.style1{
   border-top: 4px solid #fefefe;
 }
 #firstcol {
   padding-top: 15px;
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0 ;  
+}
+#menuname{
+  padding: 0;
+  margin: 0;
 }
 .AppStore {
   width: 100px;
