@@ -150,7 +150,7 @@ a.button:active {
 
 /* ---US---- */
 .US
-{ background-color:rgb(255, 47, 0) ;
+{ background-colorrgb(255, 72, 0);
  
 
 }
@@ -195,18 +195,23 @@ h4
 
 .locationul1>ul>li
 {
-  background-color:rgb(255, 47, 0) ;
+  background-color:rgb(255, 72, 0) ;
 }
 
 /*    ================================ */
 
 h3
-{
+{ 
     padding: 0;
     margin: 0;
-    background-color:rgb(255, 47, 0); 
+    background-color:rgb(255, 72, 0); 
     padding-left: 5%;
-}
+    border-style: solid;
+    border-width: 1PX;
+    border-color: white;
+    border-left: 0;
+    border-right: 0;
+  }
 article
 {
   background-image: url(img6.jpg);
@@ -219,14 +224,15 @@ article
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 47, 0);
+  background-color: rgb(255, 72, 0);
 }
  article img
  {  
-  width: 400px;
+  width: 435px;
   height: 100%;
   overflow: hidden;
-  margin: 10px;
+  margin: 1px;
+  border-style: solid;
  }
 .pic-ctn {
   display: flex;
