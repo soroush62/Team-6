@@ -27,6 +27,8 @@ body {
 
 /* -----cont------ */
 
+
+
 .icon
 {
   padding-right: 1%;
@@ -234,7 +236,7 @@ article
 {
   background-image: url(img6.jpg);
   background-position: center center;
-  min-height: calc(52vh - 50px);
+  min-height: calc(45vh - 52px);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -242,10 +244,10 @@ article
 
  article img
  {  
-  width: 435px;
+  width: 556px;
   height: 100%;
   overflow: hidden;
-  margin: 1px;
+  margin: 15px;
   border-style: solid;
  }
 .pic-ctn {
@@ -289,7 +291,7 @@ article
 .pic-ctn > img {
   position: absolute;
   top: 0;
-  left: calc(50% - 100px);
+  left: calc(50% - 183px);
   opacity: 0;
   animation: display 10s infinite;
   margin-left: 20%;
@@ -310,7 +312,7 @@ img:nth-child(5) {
 /* ------------------------------------- */
 p {
   margin-left: 10%;
-  margin-top: 20px;
+  margin-top: 5%;
   margin-bottom: 0rem;
 }
 
