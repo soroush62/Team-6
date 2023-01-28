@@ -125,7 +125,7 @@ nav {
 #footer1 {
   margin: 0 auto; 
   margin-top: 20px;
-  background-color: rgb(171, 98, 35);
+  background-color: rgb(172, 107, 72);
   height: 100%;
   color: white;
   text-align: center;
@@ -141,24 +141,45 @@ h3{
   color: white;
   text-align: center;
   font-size: 19px;
-  padding-top: 5px;
-  hheight: 270px;
+
+  hheight: 320px;
   bbackground-image: url(images/back2.jpeg);
   background-repeat: no-repeat;
   background-size:cover;
+  
+  
+}
+#Dubai{
+  width: 270px; 
+  height: 350px;
+}
+
+.carousel-inner{
+  
+  text-align: center;
+  height: 360px;
+  
 }
 .carousel-image  {
-  height: 308.49px;  
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position: center;
+  position: absolute; 
+  
+  
+  
 }
-#Dubai {
-  smargin-left: 250px;
+.swipeimage{
+  position: relative;
+  bottom:20%;
 }
+
+.swipeimage1{
+  position: relative;
+  bottom:10%;
+}
+
 #footer3 {
   margin-top: 10px;
-  background-color: rgb(171, 98, 35);
+  
+  abackground-color: rgb(171, 98, 35);
   height: 100%;
   color: white;
   text-align: start;
@@ -166,7 +187,7 @@ h3{
   padding-left: 5px;
   padding-top: 15px;
   height: 346px;
-  bbackground-image: url(images/back4.jpg);
+  background-image: url(images/back4.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -198,5 +219,23 @@ hr.style1{
     margin-left: 0;
     position: relative;
     justify-content: center;
+}
+.swipeimage{
+  position: relative;
+  bottom: 0%;
+}
+.swipeimage1{
+  position: relative;
+  bottom: 0%;
+}
+#Dubai{
+  width: 270px; 
+  height: 300px;
+}
+.carousel-inner{
+  
+  text-align: center;
+  height: 320px;
+  
 }
 }
