@@ -41,9 +41,14 @@ a:hover {
   color: rgb(255, 138, 4);
 }
 nav {
-  margin-top: 10px;
-  width: 85%;
-  margin-left: 135px;
+  
+  /* margin-top: 10px; */
+  /* width: 85%; */
+  /* margin-left: 135px; */
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to top, transparent, rgb(0, 0, 0)),
+  url("critters.png") ;
 }
 #navend {
   border-right: 2px solid gray;
@@ -166,11 +171,11 @@ hr.style1{
   width: 100%;
 }
 }
-@media (max-width: 900px) {
+@media (max-width: 791px) {
   nav {
-    margin-top: 20px;
-    width: 85%;
-    margin-left: 0;
+    /* margin-top: 20px; */
+    /* width: 85%; */
+    /* margin-left: 0; */
     position: relative;
     justify-content: center;
 }

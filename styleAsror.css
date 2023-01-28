@@ -27,8 +27,6 @@ body {
 
 /* -----cont------ */
 
-
-
 .icon
 {
   padding-right: 1%;
@@ -169,9 +167,9 @@ a.button:active {
 /* ---US---- */
 .US
 { 
+  
   background-color: rgb(255, 72, 0);
-
-
+  
 }
 .location
 {
@@ -234,20 +232,22 @@ h3
   }
 article
 {
+  
   background-image: url(img6.jpg);
   background-position: center center;
-  min-height: calc(45vh - 52px);
+  min-height: calc(52vh - 50px);
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 
  article img
  {  
-  width: 556px;
+  width: 435px;
   height: 100%;
   overflow: hidden;
-  margin: 15px;
+  margin: 1px;
   border-style: solid;
  }
 .pic-ctn {
@@ -291,7 +291,7 @@ article
 .pic-ctn > img {
   position: absolute;
   top: 0;
-  left: calc(50% - 183px);
+  left: calc(50% - 100px);
   opacity: 0;
   animation: display 10s infinite;
   margin-left: 20%;
@@ -312,7 +312,7 @@ img:nth-child(5) {
 /* ------------------------------------- */
 p {
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 4%;
   margin-bottom: 0rem;
 }
 
