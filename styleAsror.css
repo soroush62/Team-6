@@ -166,8 +166,9 @@ a.button:active {
 
 /* ---US---- */
 .US
-{ background-colorrgb(255, 72, 0);
- 
+{ 
+  background-color: rgb(255, 72, 0);
+
 
 }
 .location
@@ -231,7 +232,7 @@ h3
   }
 article
 {
-  background-image: url(Images/b);
+  background-image: url(img6.jpg);
   background-position: center center;
   min-height: calc(52vh - 50px);
   background-repeat: no-repeat;
