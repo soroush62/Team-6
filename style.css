@@ -1,77 +1,13 @@
-/* -----cont------ */
-body
-{
-  padding: 0;
-  margin: 0;
-}
-.cont>nav>ul>div
-{
-    font-weight: bold;
-  display: block;
-  color: rgb(255, 255, 255);
-  font-size: 13px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none
-}
-
-.cont>nav>ul
-{ 
-  display: flex;
-  float: right;
-  position: fixed;
-  width: 100%;
-  padding-left: 5%;
-  /* padding-left: 100%; */
-  /* padding-right: 2%; */
-  background: linear-gradient(to top, transparent, rgb(0, 0, 0)),
-  url("critters.png");
-
-}
-
-ul {
-  
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden;
-  
-}
-
-li a {
-  
-  font-weight: bold;
-  display: block;
-  color: rgb(255, 255, 255);
-  font-size: 13px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-
-li a:hover {
-  color: orange;
-}
-
-.active {
-  color: rgb(255, 123, 0);
-}
 body {
   background-image: url(images/salad.jpg);
   color: white;
-<<<<<<< Updated upstream
   text-align: center;    
-=======
-  text-align: center;
-
->>>>>>> Stashed changes
   background-size: cover;
   background-attachment:fixed;
   background-repeat: no-repeat;
-  mmargin-top: 70px;
+  mmargin-top: 90px;
   
 }
-
 #content {
   width: 80%;
   height: 100%;
@@ -81,15 +17,16 @@ body {
 .mt-5 {
   font-size: 17px;
 }
+#Linediv {
+  display: contents;
+}
 .form-control:active,
 .form-control:focus {
   border: none;
   outline: none;
   box-shadow: none;
 }
-.navbar {
-  margin-bottom: 0;
-}
+
 
 h2 {
   font-size: 25px;
@@ -107,7 +44,6 @@ nav {
   margin-top: 10px;
   width: 85%;
   margin-left: 135px;
-  font-weight: bold;
 }
 #navend {
   border-right: 2px solid gray;
@@ -171,8 +107,13 @@ nav {
   height: 100%;
   color: white;
   text-align: center;
-  font-size: 20px;
+  ffont-size: 20px;
+  ppadding-left: 5px;
+  display: flex;
   padding:0 10% 5px 10%;
+}
+#footer3text {
+  padding-left: 12%;
 }
 #footer2 {
   margin: 0 auto;
@@ -203,32 +144,23 @@ nav {
   color: white;
   text-align: start;
   font-size: 15px;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-top: 15px;
-  height: 350x;
+  height: 346px;
   background-image: url(images/back4.jpg);
   background-repeat: no-repeat;
-  background-size:cover; 
-}
-#footer3text {
-  padding-left: 10%;
+  background-size:cover;
 }
 hr.style1{
   border-top: 4px solid #fefefe;
 }
 #firstcol {
-  padding-top: 15px;
-  padding-right: 0;
-  padding-left: 0;
-  margin: 0 ;  
-}
-#menuname{
-  padding: 0;
-  margin: 0;
+  padding: 15px 0 0 0;
 }
 .AppStore {
   width: 100px;
 }
+
 @media (min-width: 1200px){
 .container {
   width: 100%;
