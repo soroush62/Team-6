@@ -32,6 +32,10 @@ body {
   outline: none;
   box-shadow: none;
 }
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+}
 
 
 h2 {
