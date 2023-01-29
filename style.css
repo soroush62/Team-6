@@ -14,10 +14,11 @@ body {
   margin: 0 auto;
   
 }
-.top
-{
-  margin-left: 0;
-  margin-top: 0;
+.top {
+  margin-left: 10%;
+  height: 100%;
+ 
+  
 }
 .mt-5 {
   font-size: 17px;
@@ -54,8 +55,7 @@ nav {
   /* margin-top: 10px; */
   /* width: 85%; */
   /* margin-left: 135px; */
-  /* position: fixed; */
-  margin-top: 0;
+  position: fixed;
   width: 100%;
   background: linear-gradient(to top, transparent, rgb(0, 0, 0)),
   url("critters.png") ;
