@@ -57,6 +57,14 @@ body {
   url("critters.png") ;
 
 }
+nav li
+{
+   margin-top: 20px;
+}
+.nav-link
+{
+  margin-top: 20px;
+}
 
 ul {
   
