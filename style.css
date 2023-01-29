@@ -32,7 +32,10 @@ body {
   outline: none;
   box-shadow: none;
 }
-
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+}
 
 h2 {
   font-size: 25px;
@@ -52,6 +55,7 @@ nav {
   /* width: 85%; */
   /* margin-left: 135px; */
   position: fixed;
+  font-weight: bold;
   width: 100%;
   background: linear-gradient(to top, transparent, rgb(0, 0, 0)),
   url("critters.png") ;
