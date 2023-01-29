@@ -14,11 +14,10 @@ body {
   margin: 0 auto;
   
 }
-.top {
-  margin-left: 10%;
-  height: 100%;
- 
-  
+.top
+{
+  margin-left: 0;
+  margin-top: 0;
 }
 .mt-5 {
   font-size: 17px;
@@ -32,10 +31,7 @@ body {
   outline: none;
   box-shadow: none;
 }
-h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 55px;
-}
+
 
 h2 {
   font-size: 25px;
@@ -54,8 +50,8 @@ nav {
   /* margin-top: 10px; */
   /* width: 85%; */
   /* margin-left: 135px; */
-  position: fixed;
-  font-weight: bold;
+  /* position: fixed; */
+  margin-top: 0;
   width: 100%;
   background: linear-gradient(to top, transparent, rgb(0, 0, 0)),
   url("critters.png") ;
