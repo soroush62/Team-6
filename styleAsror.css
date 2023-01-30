@@ -27,6 +27,7 @@ body {
 
 /* -----cont------ */
 
+
 .icon
 {
   padding-right: 1%;
@@ -361,9 +362,14 @@ nav>ul {
 }
 @media(max-width: 1000px)
 {
+  .face
+  {
+    display: none;
+  }
     article
     {
         background-image: none;
+        padding-left: 0;
     }
 article img
 {
@@ -396,7 +402,22 @@ width: auto;
 .cont>nav>ul
 {
   border-bottom: 0ch;
+  position: absolute;
+  padding-left: 0;
+  background-image: none;
+  margin-top: 57%;
+
 }
+.face
+{
+  text-align: center;
+ mmargin-bottom: 55%;
+}
+.MIDLE {
+  margin-top: 20%;
+}
+
+
 
 }
 @media(max-width: 500px)
