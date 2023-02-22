@@ -2,13 +2,76 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(Images/back4.jpg);
+  background-image: url(images/back4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
   position: relative;
 
 }
+@media (min-width: 992px)
+{
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 90%;
+}
+}
+@media (min-width: 768px)
+{
+.container, .container-md, .container-sm {
+    max-width: 90%;
+}
+}
+@media (min-width: 576px)
+{
+    .container, .container-sm {
+        max-width: 90%;
+    }
+}
+@media (max-width: 576px)
+{
+    .col-sm-3
+    {
+        margin-top: 10%;
+    }
+    .navbar
+    {
+        width: 100%;
+    }
+
+}
+#bord>a
+{
+  border-style: solid;
+  border-bottom: 0ch;
+  border-left: 0ch;
+  border-top: 0ch;
+  border-width: 1px;
+  margin-bottom: 100px;
+  border-color: rgb(253, 253, 253);
+}
+.navbar-nav>li 
+{
+  margin: 0;
+}
+.navbar
+{
+  padding-left: 4%;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding-right: 2%;
+    background: linear-gradient(to top, transparent, rgb(0, 0, 0)),
+    url("critters.png") ;
+
+}
+.container-fluid
+{
+  color: white;
+}
+
+/* cont */
+/* 1w1 */
+/* cont */
 
 @font-face {
   font-family: 'Inspiration';
@@ -16,7 +79,7 @@ body {
 }
 
 .Home-page {
-  background-image: url(PH.jpg);
+  background-image: url(images/PH.jpg);
   background-position: center center;
   min-height: calc(108vh - 50px);
   background-repeat: no-repeat;
@@ -35,8 +98,7 @@ body {
 
 .cont>nav>ul>div
 {
-  
-    font-weight: bold;
+  font-weight: bold;
   display: block;
   color: rgb(255, 255, 255);
   font-size: 15px;
@@ -56,15 +118,20 @@ body {
   /* padding-right: 2%; */
   background: linear-gradient(to top, transparent, rgb(0, 0, 0)),
   url("critters.png") ;
-
+  
 }
 nav li
 {
    margin-top: 20px;
 }
-.nav-link
+.navbar-expand-lg .navbar-nav .nav-link 
 {
-  margin-top: 20px;
+  padding: 14px 16px;
+}
+  .nav-link
+{
+  font-size: 17px;
+  
 }
 
 ul {
@@ -79,7 +146,7 @@ li a {
   
   font-weight: bold;
   display: block;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   font-size: 15px;
   text-align: center;
   padding: 14px 16px;
@@ -93,11 +160,12 @@ li a:hover {
 
 .active {
   font-size: 14px;
-  color: rgb(255, 123, 0);
+  color: rgb(255, 123, 0)!important;
 }
 
 /* ---mid------- */
 .mid {
+  margin-bottom: 20%;
   align-items: center;
   padding-top: 20%;
   display: block;
@@ -145,12 +213,6 @@ a.button:active {
   box-shadow: inset 0 -1px 1px rgba(0, 0, 0, .1), inset 0 1px 2px rgba(0, 0, 0, .3), inset 0 0 0 60px rgba(255, 255, 0, .45);
 }
 
-.row {
-  padding-top: 1em;
-  display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-}
-
 .vert {
   vertical-align: super;
 }
@@ -164,15 +226,6 @@ a.button:active {
   border-radius: 50%;
 }
 
-.blog
-{ border-style: solid;
-  border-bottom: 0ch;
-  border-left: 0ch;
-  border-top: 0ch;
-  border-width: 1px;
-  margin-bottom: 100px;
-  border-color: rgb(253, 253, 253);
-}
 
 /* ---US---- */
 .US
@@ -240,16 +293,6 @@ h3
     background: linear-gradient(to left, transparent,rgb(255, 72, 0)),
     url("critters.png") ;
   }
-article
-{
-  
-  background-image: url(img6.jpg);
-  background-position: center center;
-  min-height: calc(52vh - 50px);
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
 
 
  article img
